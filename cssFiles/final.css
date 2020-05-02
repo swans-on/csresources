@@ -1,0 +1,93 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #595959;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-image: url("../images/header.jpg");
+    background-position: left;
+    background-color: #21201d;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+
+header * {
+    padding: 15px 0;
+}
+
+nav {
+    background-color: #21201d;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #47d147;
+    text-decoration: none;
+}
+
+nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: #21201d;
+    text-align: left;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #d4dbd7;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    clear: both;
+}
+
+.subhead {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #21201d;
+    border: 1px solid #47d147;
+    box-shadow: 5px 5px #888888;
+}
+
+.lambdaBreak {
+    text-align: center;
+    color: #47d147;
+}

@@ -1,0 +1,37 @@
+#container {
+    display: flex;
+}
+
+#container img {
+    width: 50%;
+    border-left: 1px solid #47d147;
+}
+
+#containerText {
+    width: 45%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#containerText * {
+    margin: 30px 0;
+}
+
+/** I may move this part to final.css if I end up using it on multiple pages. **/
+.lambdaBreak {
+    text-align: center;
+    color: #47d147;
+}
+
+#ascii {
+    display: flex;
+    justify-content: space-around;
+}
+
+#red {
+    color: #ff1a1a;
+}
+
+#blue {
+    color: #1ab2ff
+}

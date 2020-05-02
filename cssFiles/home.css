@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+}
+
+#container img {
+    width: 48%;
+    border-right: solid 1px #47d147;
+}
+
+#container .containerText {
+    width: 48%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#container p:last-child {
+    text-align: center;
+}

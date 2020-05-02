@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid #47d147;
+    margin: 0 auto;
+    background-color: #21201d;
+}
+
+table {
+    margin-top: 14px;
+}
+
+table a {
+    color: #ff1a1a;
+}
+
+td {
+    padding: 14px;
+}

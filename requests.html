@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CS Resources provides a curated list of resources for computer science students.">
+    <link rel="stylesheet" href="cssFiles/final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssFiles/requests.css">
+    <title>CS Resources | Submit Request</title>
+</head>
+
+<body>
+    <header>
+        <h1>COMPUTER SCIENCE RESOURCES</h1>
+        <h3>A curated list of resources for CS students.</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="videos.html">Videos & Lectures</a></li>
+            <li><a href="lists.html">Reading Lists</a></li>
+            <li><a href="requests.html">Submit Request</a></li>
+            <li><a href="aboutUs/aboutUs.html">About Us</a>
+                <ul>
+                    <a href="aboutUs/contactUs.html">Contact Us</a>
+                    <a href="aboutUs/faq.html">FAQ</a>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Submit Request</h2>
+        <p class="subhead">Find something you think should be added to our lists? Tell us about it!</p>
+
+        <form action="#" method="post" class="wrapper">
+            <label for="name"><span>*</span> Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><span>*</span> Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="title"><span>*</span> Title: </label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="topic"><span>*</span> Topic: </label>
+            <select id="topic" name="topic" required>
+                <option value="math">Mathematics</option>
+                <option value="algorithm">Algorithms and data structures</option>
+                <option value="ai">Artificial intelligence</option>
+                <option value="network">Networking</option>
+                <option value="security">Security</option>
+                <option value="architecture">Computer architecture</option>
+                <option value="graphics">Computer graphics</option>
+                <option value="distributed">Distributed computing</option>
+                <option value="databases">Databases</option>
+                <option value="languages">Programming languages</option>
+                <option value="compilers">Compilers</option>
+                <option value="software">Software engineering</option>
+                <option value="hardware">Computer hardware</option>
+                <option value="quantum">Quantum computing</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="radioBtns"><span>*</span> Format:</label>
+            <div id="radioBtns">
+                <input type="radio" id="book" name="format" value="book" required>
+                <label for="book">Book</label>
+                <input type="radio" id="video" name="format" value="video" required>
+                <label for="video">Video/Lecture</label>
+            </div>
+
+            <label for="link"><span>*</span> Link:</label>
+            <input type="url" id="link" name="link" required>
+
+            <label for="date"><span>*</span> Date found:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="checkboxes">Reason:</label>
+            <div id="checkboxes">
+                <input type="checkbox" name="popular" value="popular">
+                <label for="popular">It is popular</label>
+                <input type="checkbox" name="helpful" value="helpful">
+                <label for="helpful">It is helpful</label>
+                <input type="checkbox" name="other" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <label for="commment">Comments: </label>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+            <div id="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+
+            <small><span>*</span> Required fields</small>
+        </form>
+
+    </main>
+
+    <footer>
+        <small>Web Development Project for College</small><br>
+        <small>Created by Jason Swanson</small><br>
+        <a href="https://github.com/swans-on/csresources">GitHub</a>
+    </footer>
+</body>
+
+</html>

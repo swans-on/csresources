@@ -1,0 +1,30 @@
+summary {
+    padding: .5em;
+}
+
+.card {
+    background-color: #3b3228;
+    border: 1px solid #47d147;
+    width: 20%;
+    text-align: center;
+    margin: 2em;
+}
+
+.card img {
+    margin-top: 16px;
+}
+
+.category {
+    margin: 1.5em;
+    border: 1px solid red;
+}
+
+.category summary {
+    text-align: center;
+    font-size: 1.17em;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+}

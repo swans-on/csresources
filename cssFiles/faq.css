@@ -1,0 +1,10 @@
+details {
+    font-size: 1.5em;
+    border: solid 1px #47d147;
+    padding: 10px;
+}
+
+p {
+    color: #ff1a1a;
+    font-style: italic;
+}

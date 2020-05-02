@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CS Resources provides a curated list of resources for computer science students.">
+    <link rel="stylesheet" href="../cssFiles/final.css">
+    <link rel="stylesheet" href="../cssFiles/requests.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>CS Resources | Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <h1>COMPUTER SCIENCE RESOURCES</h1>
+        <h3>A curated list of resources for CS students.</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../videos.html">Videos & Lectures</a></li>
+            <li><a href="../lists.html">Reading Lists</a></li>
+            <li><a href="../requests.html">Submit Request</a></li>
+            <li><a href="aboutUs.html">About Us</a>
+                <ul>
+                    <a href="contactUs.html">Contact Us</a>
+                    <a href="faq.html">FAQ</a>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Need to reach out? Shoot us an email.</h2>
+        <form action="mailto:jason@csresources.rsu.edu" class="wrapper">
+            <label for="name"><span>*</span> Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><span>*</span> Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject"><span>*</span> Subject: </label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+
+            <div id="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+
+            <small><span>*</span> Required fields</small>
+        </form>
+    </main>
+
+    <footer>
+        <small>Web Development Project for College</small><br>
+        <small>Created by Jason Swanson</small><br>
+        <a href="https://github.com/swans-on/csresources">GitHub</a>
+    </footer>
+</body>
+
+</html>
