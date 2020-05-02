@@ -20,4 +20,6 @@ This project was meant to demonstrate key concepts in HTML/CSS:
 - Image styling
 - The box model (padding, border, margin)
 - Flex and grid display modes
-- Media queries
+
+---
+Live demo: https://swans-on.github.io/csresources/
