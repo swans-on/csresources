@@ -28,3 +28,20 @@ summary {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Mobile view */
+    
+    .card {
+        width: auto;
+    }
+
+    .card img {
+        display: inherit;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+    }
+
+}

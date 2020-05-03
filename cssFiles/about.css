@@ -35,3 +35,15 @@
 #blue {
     color: #1ab2ff
 }
+
+@media only screen and (max-width: 768px) {
+    /* Mobile view */
+    #ascii {
+        display: none;
+    }
+
+    #containerText {
+        padding: 0;
+        width: 80%;
+    }
+}

@@ -37,3 +37,13 @@ input, textarea, select {
 #buttons * {
     width: 48%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Mobile view */
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+}

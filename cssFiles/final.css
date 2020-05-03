@@ -91,3 +91,29 @@ footer {
     text-align: center;
     color: #47d147;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Mobile view */
+    nav ul li {
+        display: flex;
+        justify-content: space-evenly;
+        border: 0.1px solid #47d147;
+    }
+
+    nav ul ul {
+        position: relative;
+        display: flex;
+    }
+
+    nav li:hover ul {
+        display: inherit;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .wrapper img {
+        display: none;
+    }
+}
